@@ -1,8 +1,8 @@
-#footer .card svg {
+#footer .socialMedia svg {
     height: 25px;
   }
   
-  #footer  .card {
+  #footer  .socialMedia {
     position: relative;
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
     width: 200px;
   }
   
-  #footer  .card::before, .card::after {
+  #footer  .socialMedia::before, .socialMedia::after {
     position: absolute;
     display: flex;
     align-items: center;
@@ -25,40 +25,40 @@
     z-index: 1;
   }
   
-  #footer  .card::before {
+  #footer  .socialMedia::before {
     content: "";
     left: 0;
     justify-content: flex-end;
     background-color: #4d60b6;
   }
   
-  #footer .card::after {
+  #footer .socialMedia::after {
     content: "";
     right: 0;
     justify-content: flex-start;
     background-color: #4453a6;
   }
   
-  #footer .card:hover {
+  #footer .socialMedia:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
   
-  #footer .card:hover span {
+  #footer .socialMedia:hover span {
     opacity: 0;
     z-index: -3;
   }
   
-  #footer .card:hover::before {
+  #footer .socialMedia:hover::before {
     opacity: 0.5;
     transform: translateY(-100%);
   }
   
-  #footer  .card:hover::after {
+  #footer  .socialMedia:hover::after {
     opacity: 0.5;
     transform: translateY(100%);
   }
   
-  #footer .card span {
+  #footer .socialMedia span {
     position: absolute;
     display: flex;
     align-items: center;
@@ -74,7 +74,7 @@
     z-index: 2;
   }
   
-  #footer .card .social-link {
+  #footer .socialMedia .social-link {
     position: relative;
     display: flex;
     align-items: center;
@@ -87,12 +87,12 @@
     transition: 0.25s;
   }
   
-  #footer .card .social-link svg {
+  #footer .socialMedia .social-link svg {
     text-shadow: 1px 1px rgba(31, 74, 121, 0.7);
     transform: scale(1);
   }
   
-  #footer .card .social-link:hover {
+  #footer .socialMedia .social-link:hover {
     background-color: rgba(249, 244, 255, 0.774);
     animation: bounce_613 0.4s linear;
   }
