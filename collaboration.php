@@ -2,5 +2,5 @@
 <body> <header> <?php navbar($page); ?> </header>
 
 	
-
+<?php footer($page); ?>
 </body> </html>

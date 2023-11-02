@@ -24,4 +24,9 @@
             </div>
           </section>	
 
+
+          
+          
+<?php footer(); ?>
+
 </body> </html>
